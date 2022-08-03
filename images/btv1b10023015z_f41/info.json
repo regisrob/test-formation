@@ -1,0 +1,33 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 94,
+    "height" : 140
+  }, {
+    "width" : 187,
+    "height" : 279
+  }, {
+    "width" : 373,
+    "height" : 558
+  }, {
+    "width" : 746,
+    "height" : 1116
+  }, {
+    "width" : 1491,
+    "height" : 2232
+  }, {
+    "width" : 2982,
+    "height" : 4464
+  } ],
+  "profile" : "level0",
+  "width" : 2982,
+  "id" : "https://regisrob.github.io/test-formation/images/btv1b10023015z_f41",
+  "type" : "ImageService3",
+  "@context" : "http://iiif.io/api/image/3/context.json",
+  "height" : 4464
+}
