@@ -6,6 +6,64 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 9000,
+    "id" : "https://regisrob.github.io/test-formation/images/PIA17172/canvas/",
+    "label" : {
+      "none" : [ "PIA17172" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://regisrob.github.io/test-formation/images/PIA17172/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://regisrob.github.io/test-formation/images/PIA17172/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 282,
+              "height" : 110
+            }, {
+              "width" : 563,
+              "height" : 219
+            }, {
+              "width" : 1125,
+              "height" : 438
+            }, {
+              "width" : 2250,
+              "height" : 875
+            }, {
+              "width" : 4500,
+              "height" : 1750
+            }, {
+              "width" : 9000,
+              "height" : 3500
+            } ],
+            "profile" : "level0",
+            "width" : 9000,
+            "id" : "https://regisrob.github.io/test-formation/images/PIA17172",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 3500
+          } ],
+          "format" : "image/jpeg",
+          "width" : 9000,
+          "id" : "https://regisrob.github.io/test-formation/images/PIA17172/full/max/0/default.jpg",
+          "type" : "Image",
+          "height" : 3500
+        },
+        "target" : "https://regisrob.github.io/test-formation/images/PIA17172/canvas/"
+      } ]
+    } ],
+    "height" : 3500
+  }, {
     "width" : 2982,
     "id" : "https://regisrob.github.io/test-formation/images/btv1b10023015z_f41/canvas/",
     "label" : {
