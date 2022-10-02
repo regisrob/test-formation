@@ -1,0 +1,33 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 282,
+    "height" : 110
+  }, {
+    "width" : 563,
+    "height" : 219
+  }, {
+    "width" : 1125,
+    "height" : 438
+  }, {
+    "width" : 2250,
+    "height" : 875
+  }, {
+    "width" : 4500,
+    "height" : 1750
+  }, {
+    "width" : 9000,
+    "height" : 3500
+  } ],
+  "profile" : "level0",
+  "width" : 9000,
+  "id" : "https://regisrob.github.io/test-formation/images/PIA17172",
+  "type" : "ImageService3",
+  "@context" : "http://iiif.io/api/image/3/context.json",
+  "height" : 3500
+}
