@@ -1,0 +1,15 @@
+{
+  "id" : "https://regisrob.github.io/test-formation/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in regisrob/test-formation project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "id" : "https://regisrob.github.io/test-formation/manifests/PIA17172",
+    "label" : {
+      "en" : [ "The Day the Earth Smiled" ]
+    },
+    "type" : "Manifest"
+  } ]
+}
