@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://regisrob.github.io/test-formation/annotations/35580-canvas-3374910-list.json" ],
+  "@id" : "https://regisrob.github.io/test-formation/annotations/collection.json",
+  "label" : "All annotations loaded in regisrob/test-formation project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
