@@ -11,5 +11,9 @@
       "en" : [ "The Day the Earth Smiled" ]
     },
     "type" : "Manifest"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://regisrob.github.io/test-formation/manifests/35580.json",
+    "label" : "ANGERS, Archives départementales de Maine-et-Loire, H(161) 4 (Reproduction intégrale)"
   } ]
 }
