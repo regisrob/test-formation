@@ -5,7 +5,7 @@
   "viewingDirection" : "left-to-right",
   "viewingHint" : "individuals",
   "label" : "ANGERS, Archives départementales de Maine-et-Loire, H(161) 4 (Reproduction intégrale)",
-  "description" : "",
+  "description" : "Aveu en rouleau avec motifs de châteaux",
   "thumbnail" : {
     "@id" : "https://iiif.irht.cnrs.fr/iiif/France/Angers/Archives_departementales_de_Maine_et_Loire/490075102_H(161)_0004/DEPOT/490075102_H(161)_0004_0002/full/200,/0/default.jpg",
     "service" : {
