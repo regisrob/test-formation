@@ -1,0 +1,93 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://regisrob.github.io/test-formation/manifests/loc_2012586604.json",
+  "@type" : "sc:Manifest",
+  "attribution" : "Provided by the Library of Congress",
+  "description" : "Includes indexes. Available also through the Library of Congress Web site as a raster image.",
+  "label" : "Plan routier de la ville de Paris et des ses faubourgs, divisé en 12 arrondts. ou mairies et 48 quartiers, sur lequel sont indiqués tous les changemens et projets d'embellissemt. etc. on y remarque de plus tous les principaux hotels et edifices",
+  "logo" : "https://loc.gov/static/images/logo-loc-new-branding.svg",
+  "metadata" : [ {
+    "label" : "APA Citation Style",
+    "value" : "Collin, E. (1823) <cite>Plan routier de la ville de Paris et des ses faubourgs, divisé en 12 arrondts. ou mairies et 48 quartiers, sur lequel sont indiqués tous les changemens et projets d'embellissemt. etc. on y remarque de plus tous les principaux hotels et edifices</cite>. À Paris: Chez Ledoyen. [Map] Retrieved from the Library of Congress, https://www.loc.gov/item/2012586604/."
+  }, {
+    "label" : "MLA Citation Style",
+    "value" : "Collin, E., Engraver. <cite>Plan routier de la ville de Paris et des ses faubourgs, divisé en 12 arrondts. ou mairies et 48 quartiers, sur lequel sont indiqués tous les changemens et projets d'embellissemt. etc. on y remarque de plus tous les principaux hotels et edifices</cite>. À Paris: Chez Ledoyen, 1823. Map. Retrieved from the Library of Congress, &lt;www.loc.gov/item/2012586604/&gt;."
+  }, {
+    "label" : "Chicago Citation Style",
+    "value" : "Collin, E., Engraver. <cite>Plan routier de la ville de Paris et des ses faubourgs, divisé en 12 arrondts. ou mairies et 48 quartiers, sur lequel sont indiqués tous les changemens et projets d'embellissemt. etc. on y remarque de plus tous les principaux hotels et edifices</cite>. À Paris: Chez Ledoyen, 1823. Map. https://www.loc.gov/item/2012586604/."
+  }, {
+    "label" : "Contributors",
+    "value" : [ "Collin, E., engraver." ]
+  }, {
+    "label" : "Created Published",
+    "value" : [ "À Paris : Chez Ledoyen, 1823." ]
+  }, {
+    "label" : "Original Format",
+    "value" : [ "map" ]
+  }, {
+    "label" : "Subjects",
+    "value" : [ "paris", "maps", "paris (france)", "france" ]
+  }, {
+    "label" : "Online Format",
+    "value" : [ "image" ]
+  }, {
+    "label" : "Item Url",
+    "value" : "https://www.loc.gov/item/2012586604/"
+  } ],
+  "navDate" : "1823-01-01:T00:00:00Z",
+  "seeAlso" : [ {
+    "@id" : "https://lccn.loc.gov/2012586604/marcxml",
+    "format" : "text/xml"
+  }, {
+    "@id" : "https://lccn.loc.gov/2012586604/mods",
+    "format" : "text/xml"
+  }, {
+    "@id" : "https://lccn.loc.gov/2012586604/dc",
+    "format" : "text/html"
+  } ],
+  "sequences" : [ {
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@id" : "https://tile.loc.gov/image-services/iiif/service:gmd:gmd5:g5834:g5834p:ct003571",
+      "@type" : "sc:Canvas",
+      "height" : 2199,
+      "images" : [ {
+        "@id" : "https://www.loc.gov/resource/g5834p.ct003571/seq-1/",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://tile.loc.gov/image-services/iiif/service:gmd:gmd5:g5834:g5834p:ct003571",
+        "resource" : {
+          "@id" : "https://tile.loc.gov/image-services/iiif/service:gmd:gmd5:g5834:g5834p:ct003571/full/pct:25/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2199,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://tile.loc.gov/image-services/iiif/service:gmd:gmd5:g5834:g5834p:ct003571",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          },
+          "width" : 3606
+        }
+      } ],
+      "label" : "Page 1",
+      "metadata" : [ {
+        "label" : "Library of Congress Resource URL",
+        "value" : "https://www.loc.gov/resource/g5834p.ct003571/?sp=1"
+      } ],
+      "related" : "https://www.loc.gov/resource/g5834p.ct003571/?sp=1",
+      "thumbnail" : {
+        "@id" : "https://tile.loc.gov/storage-services/service/gmd/gmd5/g5834/g5834p/ct003571.gif",
+        "format" : "image/jpeg",
+        "height" : 150,
+        "width" : 246
+      },
+      "width" : 3606
+    } ],
+    "label" : "Order of the views"
+  } ],
+  "thumbnail" : {
+    "@id" : "https://tile.loc.gov/storage-services/service/gmd/gmd5/g5834/g5834p/ct003571.gif"
+  },
+  "viewingDirection" : "left-to-right",
+  "viewingHint" : "paged"
+}
