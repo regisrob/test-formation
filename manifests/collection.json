@@ -15,5 +15,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://regisrob.github.io/test-formation/manifests/35580.json",
     "label" : "ANGERS, Archives départementales de Maine-et-Loire, H(161) 4 (Reproduction intégrale)"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://regisrob.github.io/test-formation/manifests/from_manifest_editor.json",
+    "label" : "[Click to edit label]"
   } ]
 }
