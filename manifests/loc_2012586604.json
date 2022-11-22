@@ -2,6 +2,11 @@
   "@context" : "http://iiif.io/api/presentation/2/context.json",
   "@id" : "https://regisrob.github.io/test-formation/manifests/loc_2012586604.json",
   "@type" : "sc:Manifest",
+  "service": {
+    "profile": "http://iiif.io/api/search/0/search",
+    "@id": "https://demos-dev.biblissima.fr/simpleAnnotationStore/search-api/f95693582d39a2612ceec70e9fb3f31d/search",
+    "@context": "http://iiif.io/api/search/0/context.json"
+  },
   "attribution" : "Provided by the Library of Congress",
   "description" : "Includes indexes. Available also through the Library of Congress Web site as a raster image.",
   "label" : "[Copy] Plan routier de la ville de Paris et des ses faubourgs, divisé en 12 arrondts. ou mairies et 48 quartiers",
