@@ -74,6 +74,11 @@
           "width" : 3606
         }
       } ],
+      "otherContent": [ {
+        "@id": "https://demos-dev.biblissima.fr/simpleAnnotationStore/annotation/list/7c6c5b88519132f268f89b96674ece81.json",
+        "@type": "sc:AnnotationList",
+        "label": "My test annotation"
+      }],
       "label" : "Page 1",
       "metadata" : [ {
         "label" : "Library of Congress Resource URL",
