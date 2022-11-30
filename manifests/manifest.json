@@ -1,0 +1,178 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://regisrob.github.io/test-formation/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "La nouvelle République",
+  "metadata" : [ {
+    "label" : "mon label",
+    "value" : "ma valeur"
+  }, {
+    "label" : "Label",
+    "value" : "Value"
+  } ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://7c94b7c0-5e2b-43e4-acb7-f1bc0c157ba3",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "https://archives-deux-sevres-vienne.fr/ark:/28387/vta563c56f414a055ae/canvas/0/1",
+      "@type" : "sc:Canvas",
+      "label" : "8 septembre 1944-30 décembre 1945",
+      "width" : 3388,
+      "height" : 3388,
+      "rendering" : [ {
+        "@id" : "https://archives-deux-sevres-vienne.fr/cgi-bin/iipsrv.fcgi?PY=1&FIF=%2Fhome%2Fhttpd%2Fad7986%2Fdiffusion%2Fprod%2Fapp%2Fwebroot%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD086%2FJX%2FFRAD086_348JX_00428%2FFRAD086_348JX_00428_0001.jpg&HEI=800&CVT=JPG",
+        "label" : "Télécharger le document courant",
+        "format" : "image/jpg"
+      }, {
+        "@id" : "https://archives-deux-sevres-vienne.fr/archive/download?file=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD086%2FJX%2FFRAD086_348JX_00428%2FFRAD086_348JX_00428_0001.jpg",
+        "label" : "Télécharger le document original",
+        "format" : "image/jpg"
+      } ],
+      "ligeoPermalink" : "https://archives-deux-sevres-vienne.fr/ark:/28387/vta563c56f414a055ae/daogrp/0/1",
+      "thumbnail" : "https://archives-deux-sevres-vienne.fr/cgi-bin/iipsrv.fcgi?FIF=%2Fhome%2Fhttpd%2Fad7986%2Fdiffusion%2Fprod%2Fapp%2Fwebroot%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD086%2FJX%2FFRAD086_348JX_00428%2FFRAD086_348JX_00428_0001.jpg&PY=1&HEI=80&QLT=80&CVT=JPG&SIZE=0&MTIME=0",
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "@id" : "https://archives-deux-sevres-vienne.fr/archive/download?file=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD086%2FJX%2FFRAD086_348JX_00428%2FFRAD086_348JX_00428_0001.jpg",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://archives-deux-sevres-vienne.fr/archive/download?file=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD086%2FJX%2FFRAD086_348JX_00428%2FFRAD086_348JX_00428_0001.jpg",
+          "@type" : "dctypes:Image",
+          "service" : {
+            "@context" : "https://iiif.io/api/image/2/context.json",
+            "@id" : "https://archives-deux-sevres-vienne.fr/iiif/FRAD086/JX/FRAD086_348JX_00428/FRAD086_348JX_00428_0001.jpg",
+            "profile" : "https://iiif.io/api/image/2/level1.json"
+          },
+          "format" : "image/jpeg",
+          "width" : 3388,
+          "height" : 3388
+        },
+        "on" : "https://archives-deux-sevres-vienne.fr/ark:/28387/vta563c56f414a055ae/canvas/0/1"
+      } ],
+      "ligeoRestrictedAccess" : false,
+      "ligeoIsSearchable" : false,
+      "ligeoClasseur" : {
+        "strImageBase" : "FRAD086_348JX_00428_0001",
+        "strImageDir" : "images/FRAD086/JX/FRAD086_348JX_00428",
+        "curTag" : "daogrp",
+        "curTagnum" : 0,
+        "notice_id" : "119747",
+        "ark" : "/ark:/28387/vta563c56f414a055ae",
+        "unitid" : "348 JX 428",
+        "eadid" : "FRAD086_JX"
+      },
+      "ligeoMediaPath" : "/home/httpd/ad7986/diffusion/prod/app/webroot/data/files/ad7986.diffusion/images/FRAD086/JX/FRAD086_348JX_00428/FRAD086_348JX_00428_0001.jpg",
+      "related" : {
+        "@id" : "https://archives-deux-sevres-vienne.fr/ark:/28387/vta563c56f414a055ae/manifest",
+        "label" : "La Nouvelle République du Centre-Ouest :  8 septembre 1944-30 décembre 1945",
+        "format" : ""
+      },
+      "metadata" : [ {
+        "label" : "Une",
+        "value" : "Les alliés menacent Aix-la-Chapelle"
+      } ]
+    }, {
+      "@type" : "sc:Canvas",
+      "@id" : "https://data.artmuseum.princeton.edu/iiif/objects/22783/canvas/22783-canvas-220562",
+      "height" : 5484,
+      "width" : 7320,
+      "images" : [ {
+        "resource" : {
+          "@type" : "dctypes:Image",
+          "@id" : "https://puam-loris.aws.princeton.edu/loris/PUAMSTU2018-1955653.jp2/full/full/0/default.jpg",
+          "format" : "image/jpeg",
+          "height" : 5484,
+          "width" : 7320,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "profile" : "http://iiif.io/api/image/2/level2.json",
+            "@id" : "https://puam-loris.aws.princeton.edu/loris/PUAMSTU2018-1955653.jp2"
+          }
+        },
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "@id" : "https://data.artmuseum.princeton.edu/iiif/objects/22783/annotation/22783-anno-220562",
+        "on" : "https://data.artmuseum.princeton.edu/iiif/objects/22783/canvas/22783-canvas-220562"
+      } ],
+      "thumbnail" : {
+        "@id" : "https://puam-loris.aws.princeton.edu/loris/PUAMSTU2018-1955653.jp2/full/!350,350/0/default.jpg",
+        "service" : {
+          "@context" : "http://iiif.io/api/image/2/context.json",
+          "@id" : "https://puam-loris.aws.princeton.edu/loris/PUAMSTU2018-1955653.jp2",
+          "profile" : "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "label" : "Valley and Mountains, after Zhao Boju (擬趙千里荷鄉清夏)",
+      "related" : {
+        "@id" : "https://data.artmuseum.princeton.edu/iiif/objects/22783",
+        "label" : "Chinese, Qing dynasty (1644–1912), Xiao Chen 蕭晨 (ca. 1645–ca. 1715), Valley and Mountains, after Zhao Boju (擬趙千里荷鄉清夏), undated; late 17th–early 18th century. Hanging scroll; ink and color on silk, 221 x 94 cm (Painting); 328 x 11.5 cm (mount);  (with knobs). Gift of DuBois Schanck Morris, Class of 1893 (y1947-100)",
+        "format" : ""
+      }
+    }, {
+      "@id" : "https://archives-deux-sevres-vienne.fr/ark:/28387/vta563c56f414a055ae/canvas/0/10",
+      "@type" : "sc:Canvas",
+      "label" : "8 septembre 1944-30 décembre 1945",
+      "width" : 3388,
+      "height" : 3388,
+      "rendering" : [ {
+        "@id" : "https://archives-deux-sevres-vienne.fr/cgi-bin/iipsrv.fcgi?PY=1&FIF=%2Fhome%2Fhttpd%2Fad7986%2Fdiffusion%2Fprod%2Fapp%2Fwebroot%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD086%2FJX%2FFRAD086_348JX_00428%2FFRAD086_348JX_00428_0010.jpg&HEI=800&CVT=JPG",
+        "label" : "Télécharger le document courant",
+        "format" : "image/jpg"
+      }, {
+        "@id" : "https://archives-deux-sevres-vienne.fr/archive/download?file=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD086%2FJX%2FFRAD086_348JX_00428%2FFRAD086_348JX_00428_0010.jpg",
+        "label" : "Télécharger le document original",
+        "format" : "image/jpg"
+      } ],
+      "ligeoPermalink" : "https://archives-deux-sevres-vienne.fr/ark:/28387/vta563c56f414a055ae/daogrp/0/10",
+      "thumbnail" : "https://archives-deux-sevres-vienne.fr/cgi-bin/iipsrv.fcgi?FIF=%2Fhome%2Fhttpd%2Fad7986%2Fdiffusion%2Fprod%2Fapp%2Fwebroot%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD086%2FJX%2FFRAD086_348JX_00428%2FFRAD086_348JX_00428_0010.jpg&PY=1&HEI=80&QLT=80&CVT=JPG&SIZE=0&MTIME=0",
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "@id" : "https://archives-deux-sevres-vienne.fr/archive/download?file=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD086%2FJX%2FFRAD086_348JX_00428%2FFRAD086_348JX_00428_0010.jpg",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://archives-deux-sevres-vienne.fr/archive/download?file=https%3A%2F%2Farchives-deux-sevres-vienne.fr%2Fdata%2Ffiles%2Fad7986.diffusion%2Fimages%2FFRAD086%2FJX%2FFRAD086_348JX_00428%2FFRAD086_348JX_00428_0010.jpg",
+          "@type" : "dctypes:Image",
+          "service" : {
+            "@context" : "https://iiif.io/api/image/2/context.json",
+            "@id" : "https://archives-deux-sevres-vienne.fr/iiif/FRAD086/JX/FRAD086_348JX_00428/FRAD086_348JX_00428_0010.jpg",
+            "profile" : "https://iiif.io/api/image/2/level1.json"
+          },
+          "format" : "image/jpeg",
+          "width" : 4494,
+          "height" : 4494
+        },
+        "on" : "https://archives-deux-sevres-vienne.fr/ark:/28387/vta563c56f414a055ae/canvas/0/10"
+      } ],
+      "ligeoRestrictedAccess" : false,
+      "ligeoIsSearchable" : false,
+      "ligeoClasseur" : {
+        "strImageBase" : "FRAD086_348JX_00428_0010",
+        "strImageDir" : "images/FRAD086/JX/FRAD086_348JX_00428",
+        "curTag" : "daogrp",
+        "curTagnum" : 0,
+        "notice_id" : "119747",
+        "ark" : "/ark:/28387/vta563c56f414a055ae",
+        "unitid" : "348 JX 428",
+        "eadid" : "FRAD086_JX"
+      },
+      "ligeoMediaPath" : "/home/httpd/ad7986/diffusion/prod/app/webroot/data/files/ad7986.diffusion/images/FRAD086/JX/FRAD086_348JX_00428/FRAD086_348JX_00428_0010.jpg",
+      "related" : {
+        "@id" : "https://archives-deux-sevres-vienne.fr/ark:/28387/vta563c56f414a055ae/manifest",
+        "label" : "La Nouvelle République du Centre-Ouest :  8 septembre 1944-30 décembre 1945",
+        "format" : ""
+      }
+    } ]
+  } ],
+  "structures" : [ ],
+  "seeAlso" : { },
+  "viewingHint" : ""
+}
