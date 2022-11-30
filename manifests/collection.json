@@ -23,5 +23,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://regisrob.github.io/test-formation/manifests/loc_2012586604.json",
     "label" : "Plan routier de la ville de Paris et des ses faubourgs, divisé en 12 arrondts. ou mairies et 48 quartiers, sur lequel sont indiqués tous les changemens et projets d'embellissemt. etc. on y remarque de plus tous les principaux hotels et edifices"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://regisrob.github.io/test-formation/manifests/manifest.json",
+    "label" : "La nouvelle République"
   } ]
 }
